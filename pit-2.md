@@ -1,5 +1,6 @@
 Projeto Integrador Transdisciplinar em Análise e Desenvolvimento de Software II - Cruzeiro Sul Virtual
-RGM: 36575739
+
+`RGM: 36575739`
 
 
 #### Lista de Propriedades
@@ -27,19 +28,6 @@ A empresa Y precisa desenvolver um aplicativo para entrega de comida, mas enfren
 
 `Tempo estimado: 7 dias.`
 
-#### História 1 
-> Como Product Owner, quero que ao abrir o aplicativo, seja exibida uma animação suave com a logo da empresa para reforçar a identidade visual e proporcionar uma experiência inicial agradável aos usuários. 
-
-* [A] Criar protótipos de animação em plataformas de prototipagem (Figma);
-* [A] Detalhar estilos de animação (duração, efeitos e transição);
-* [A] Revisar e aprovar design final da animação com Product Owner;
-* [A] Implementar a logo de animação da logo do Aplicativo;
-* [A] Realizar testes de usabilidade para que a logo funcione em diferentes dispositivos e formatos de tela (Requisitos Funcionais );
-* [A] Realizar testes de performance para que ele esteja de acordo com os requisitos não funcionais.
-
-`Pontos de História: 13`
-`Tempo estimado: 7 dias.`
-
 #### História 2 
 > Como futuro usuário, quero poder explorar o catálogo de produtos e serviços antes de me registrar, para avaliar a variedade de opções disponíveis e ter uma experiência inicial com o aplicativo sem compromisso. 
 
@@ -58,10 +46,9 @@ A empresa Y precisa desenvolver um aplicativo para entrega de comida, mas enfren
 * [E] Criação de Dashboard intuitivo e responsivo para visualização de dados;
 * [E] Testes de requisitos de eficiência para garantir que as informações sejam atualizadas em tempo real;
 
-`Pontos de História: 1`
 `Tempo estimado: 20 dias.`
 
-#### História 4 
+#### História 4
 > Como usuário, quero que os estabelecimentos no aplicativo sejam automaticamente ordenados por status de funcionamento (aberto ou fechado) e que eu possa aplicar filtros como "frete grátis", para facilitar minha escolha e otimizar meu tempo de compra. 
 
 * [D] Ajuste na API para adicionar dados de estado e valor de entrega do estabelecimento;
@@ -72,7 +59,7 @@ A empresa Y precisa desenvolver um aplicativo para entrega de comida, mas enfren
 
 `Tempo estimado: 6 dias.`
 
-#### História 5 
+#### História 5
 > Como usuário, quero poder acessar uma lista dos meus últimos pedidos diretamente no aplicativo, para que eu possa repetir pedidos anteriores ou rastrear minhas atividades de compra com facilidade. 
 
 * [B] Criação de lógica de armazenamento no banco para recuperação de dados; 
@@ -81,10 +68,9 @@ A empresa Y precisa desenvolver um aplicativo para entrega de comida, mas enfren
 * [B] Criar rota onde é exibido os últimos pedidos por ordem decrescente e garantir o apenas para usuários registrados;
 * [B] Testes unitários e automatizados de API e Interface.
 
-`Pontos de História: 3`
 `Tempo estimado: 12 dias.`
 
-#### História 6 
+#### História 6
 > Como administrador do aplicativo, quero ter a capacidade de aplicar descontos especiais em estabelecimentos cadastrados, para atrair mais clientes e aumentar a competitividade do marketplace.
 
 * [C] Desenvolver a lógica no back-end para aplicar descontos aos estabelecimentos cadastrado;
@@ -96,13 +82,13 @@ A empresa Y precisa desenvolver um aplicativo para entrega de comida, mas enfren
 `Tempo estimado: 12 dias.`
 
 #### História 7 
-> Como usuário, quero ter a opção de aplicar cupons de desconto durante o processo de checkout, para reduzir o custo das minhas entregas e incentivar o uso contínuo do aplicativo..
+> Como usuário, quero ter a opção de aplicar cupons de desconto durante o processo de checkout, para reduzir o custo das minhas entregas e incentivar o uso contínuo do aplicativo.
 
 - [C] Desenvolver a lógica no back-end para validar e aplicar cupons de desconto;
 - [C] Adicionar na finalização do pedido caixa de texto onde poderá ser inserido cupom de desconto;
 - [C] Garantir que uma imagem informativa seja exibida especificando que o usuário recebeu ou não o desconto ("Cupom aplicado com sucesso" ou "Cupom inválido");
 - [C] Realizar testes unitários e de integração para garantir que os cupons são validados e aplicados corretamente.
-- [C] Testar diferentes cenários (e.g., cupons válidos, cupons expirados, cupons com restrições) para assegurar a robustez da funcionalidade.
+- [C] Testar diferentes cenários (ex.: cupons válidos, cupons expirados, cupons com restrições) para assegurar a robustez da funcionalidade.
 
 `Tempo estimado: 10 dias.`
 
