@@ -2,7 +2,7 @@ Projeto Integrador Transdisciplinar em Análise e Desenvolvimento de Software II
 RGM: 36575739
 
 
-#### Lista de Propriedades (*)
+#### Lista de Propriedades
 **Níveis**: [A], [B], [C], [D], [E]
 * **[A]** -  Muito Alta;
 * **[B]** -  Alta;
